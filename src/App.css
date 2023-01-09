@@ -1,38 +1,1950 @@
-.App {
-  text-align: center;
+body{
+  /* overflow: hidden; */
+  overflow-x: hidden;
+  font-family: 'Noto Sans', sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.nav-item{
+font-family: 'Lexend Deca', sans-serif;
+font-weight: 600;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.submit-button{
+padding: 20px;
+font-weight: 600;
+font-family: 'Lexend Deca', sans-serif;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.input-icons{
+  position: absolute;
+  margin-left: 11px;
+  color: blue;
+}
+
+.input-icons i{
+  margin-top: 12px;
+}
+
+::placeholder {
+ 
+  color: blue !important;
+} 
+
+.text img{
+  overflow: hidden;
+  width: 123%;
+  padding-top: 41px;
+}
+
+
+.input-box {
+  position: relative;
+  height: 56px;
+  max-width: 900px;
+  width: 36%;
+  background: #fff;
+  margin: 0 737px;
+  border-radius: 3px;
+  border: 2px solid blue;
+  margin-top: -98px;
+}
+
+.input-box i,
+.input-box .button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.input-box i {
+  left: 20px;
+  font-size: 30px;
+  color: blue;
+}
+
+.input-box input {
+  height: 100%;
+  width: 100%;
+  outline: none;
+  font-size: 18px;
+  font-weight: 600;
+  border: none;
+  padding: 0 155px 0 65px;
+  color: blue !important;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+.input-box .button {
+  right: 20px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff;
+  border: none;
+  padding: 12px 30px;
+  border-radius: 6px;
+  background-color: #4070f4;
+  cursor: pointer;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+.input-box .button:active {
+  transform: translateY(-50%) scale(0.98);
+}
+
+.quote{
+  padding-top: 33px;
+  color: blue;
+  font-size: 22px;
+  font-weight: 700;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+.free-quote{
+  font-size: 42px;
+  padding-top: 10px;
+  font-weight: 800;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+.service-quote{
+  font-size: 24px;
+  color: #adb5bd;
+  font-weight: 700;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+.quote-text{
+  color: blue;
+  font-size: 22px;
+  font-weight: 700;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+.quote-line{
+  text-decoration: underline 6px solid #ffc107;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+.dedicated{
+  text-decoration: underline 6px solid #ffc107;
+}
+
+.affordable{
+  text-decoration: underline 6px solid #ffc107;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+.payment-text{
+  color: #adb5bd;
+  font-size: 18px;
+  font-weight: 700;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+.dollar-1{
+  color: #4070f4;
+  font-weight: 800;
+  font-size: 30px;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+.button {
+  background-color: rgb(69, 69, 224);
+  border: none;
   color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 2px;
+  font-family: 'Noto Sans', sans-serif;
 }
 
-.App-link {
-  color: #61dafb;
+.button-1 {
+  background-color: #fff;
+  border: 1px solid blue;
+  color: rgb(69, 69, 224);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-weight: 600;
+  border-radius: 2px;
+  font-family: 'Noto Sans', sans-serif;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.vedio-heading{
+  text-align: center;
+  margin-top: 50px;
+  font-family: 'Noto Sans', sans-serif;
 }
+
+.vedio-text{
+  font-size: 18px;
+  font-weight: 600;
+  color: rgb(69, 69, 224);
+  display: inline-block;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+.vedio-text img{
+  display: inline-block;
+} 
+
+.vedio-heading img{
+  border: 3px solid rgb(69, 69, 224);
+  border-radius: 100px;
+  -webkit-border-radius: 500px;
+  -moz-border-radius: 500px;
+  width: 3%;
+  padding: 5px;
+  padding-top: 4px;
+  padding-right: 6px;
+}
+
+.mission-heading{
+  text-align: center;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+.heading-for{
+  text-align: center;
+  font-weight: 700;
+  font-size: 25px;
+  margin-top: -9px;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+.mission-quote{
+  text-align: center;
+  font-weight: 600;
+  color: #adb5bd;
+  font-size: 25px;
+  margin-top: 40px;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+.started a{
+  text-decoration: none;
+  color: #ffc107;
+  font-weight: 700;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+.started .dung{
+  width: 11%;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+.started .card-text{
+  color: #6c757d;
+  font-weight: 600;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+
+.started .vector{
+  width: 11%;
+}
+
+.card-title{
+  margin-top: 30px;
+  font-weight: 800;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+.register-text{
+  margin-left: 58px;
+  font-size: 23px;
+  font-weight: 700;
+  margin-top: 113px;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+.offsore-text{
+  margin-left: 91px;
+  margin-top: 30px;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+.services-text{
+  margin-top: 80px;
+  font-size: 23px;
+  margin-left: 59px;
+  font-weight: 500;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+.services-quote {
+  margin-left: 60px;
+  color: blue;  
+  font-size: 20px;
+  display: inline-block;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+.services-quote img{
+  display: inline-block;
+}
+
+.advice-card{
+  width: 70%;
+  margin-left: 60px;
+  height: 106vh;
+  border: 1px solid #adb5bd;
+  border-radius: 10px;
+  margin-top: 90px;
+}
+
+.bank-card{
+  margin-top: -350px;
+  width: 70%;
+  margin-left: 60px;
+  height: 106vh;
+  border: 1px solid #adb5bd;
+  border-radius: 10px;
+}
+
+.registration-card{
+  margin-top: -150px;
+  width: 70%;
+  margin-left: 60px;
+  height: 106vh;
+  border: 1px solid #adb5bd;
+  border-radius: 10px;
+}
+
+.company-card{
+  margin-top: -352px;
+  width: 70%;
+  margin-left: 60px;
+  height: 106vh;
+  border: 1px solid #adb5bd;
+  border-radius: 10px;
+}
+
+.advice-card .group-img{
+  width: 42%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+}
+
+
+.bank-card .groups-img{
+  width: 65%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+}
+
+.registration-card .Group-img{
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 35px;
+}
+
+.company-card .Group-img{
+  width: 51%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 57px;
+}
+
+.quote-new{
+  font-size: 20px;
+  color: blue;
+  padding-left: 58px;
+  font-weight: 700;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+.text-created{
+  font-weight: 400;
+  color: #adb5bd;
+  font-size: 18px;
+  margin-top: 25px;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+.advice-card .text-learn{
+text-decoration: none;
+margin-top: 10px;
+font-size: 17px;
+line-height: 4;
+font-family: 'Noto Sans', sans-serif;
+}
+
+.bank-card .text-learn{
+text-decoration: none;
+margin-top: 10px;
+font-size: 17px;
+line-height: 4;
+font-family: 'Noto Sans', sans-serif;
+}
+
+.registration-card .text-learn{
+text-decoration: none;
+margin-top: 10px;
+font-size: 17px;
+line-height: 4;
+font-family: 'Noto Sans', sans-serif;
+}
+
+.company-card .text-learn{
+text-decoration: none;
+margin-top: 10px;
+font-size: 17px;
+line-height: 4;
+font-family: 'Noto Sans', sans-serif;
+}
+
+.text-body{
+margin-left: 25px;
+}
+
+.heading-for-popular{
+  text-align: center;
+  font-weight: 700;
+  font-size: 25px;
+  margin-top: -24px;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+.offshore-card{
+border: 1px solid #adb5bd;
+border-radius: 10px;
+background-color: #fff;
+}
+
+.city-card{
+border: 1px solid #adb5bd;
+border-radius: 10px;
+}
+
+.icc-card{
+border: 1px solid #adb5bd;
+border-radius: 10px;
+}
+
+.card-deck .card-title{
+text-transform: uppercase;
+color: #4070f4;
+font-weight: 700;
+font-family: 'Noto Sans', sans-serif;
+}
+
+
+.text-includes{
+color: #4070f4;
+font-weight: 700;
+font-size: 18px;
+font-family: 'Noto Sans', sans-serif;
+}
+
+.list-for li{
+text-decoration: none;
+list-style: none;
+padding: 9px;
+margin-left: -51px;
+color: #4070f4;
+font-weight: 600;
+font-family: 'Noto Sans', sans-serif;
+}
+
+
+.button-continue{
+background-color: #fff;
+border: 1px solid #4070f4;
+border-radius: 3px;
+color: #4070f4;
+padding: 15px 99px;
+text-align: center;
+text-decoration: none;
+font-size: 21px;
+font-weight: 500;
+margin: 4px 2px;
+cursor: pointer;
+font-family: 'Noto Sans', sans-serif;
+}
+
+.offshore-card:hover{
+transform: scale(1.05);
+box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+background: #4070f4;
+color: #fff;
+}
+
+.offshore-card:hover .card-title,
+.offshore-card:hover .dollar-1,
+.offshore-card:hover .payment-text,
+.offshore-card:hover .card-text,
+.offshore-card:hover .list-for li{
+color: #fff;
+}
+
+.offshore-card:hover .list-for img{
+background-color: blue;
+border-radius: 100px;
+-webkit-border-radius: 300px;
+outline: 2px solid white;
+fill: #fff;
+outline-offset: -1px;
+}
+
+.icc-card:hover{
+transform: scale(1.05);
+box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+background: #4070f4;
+color: #fff;
+}
+
+.icc-card:hover .card-title,
+.icc-card:hover .dollar-1,
+.icc-card:hover .payment-text,
+.icc-card:hover .card-text,
+.icc-card:hover .list-for li{
+color: #fff;
+}
+
+.icc-card:hover .list-for img{
+background-color: blue;
+border-radius: 100px;
+-webkit-border-radius: 300px;
+outline: 2px solid white;
+fill: #fff;
+outline-offset: -1px;
+}
+
+.city-card:hover{
+transform: scale(1.05);
+box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+background: #4070f4;
+color: #fff;
+}
+
+.city-card:hover .card-title,
+.city-card:hover .dollar-1,
+.city-card:hover .payment-text,
+.city-card:hover .card-text,
+.city-card:hover .list-for li{
+color: #fff;
+}
+
+.city-card:hover .list-for img{
+background-color: blue;
+border-radius: 100px;
+-webkit-border-radius: 300px;
+outline: 2px solid white;
+fill: #fff;
+outline-offset: -1px;
+}
+
+.city-card:hover .list-for img:last-child{
+background-color: #fff;
+}
+
+.offshore-card:hover .list-for img:last-child{
+background-color: #fff;
+}
+
+.icc-card:hover .list-for img:last-child{
+background-color: #fff;
+}
+
+.small-ellipse{
+margin-top: -60px;
+padding-left: 50px;
+width: 7%;
+}
+
+.elp{
+padding-top: 90px;
+padding-left: 150px;
+width: 20%;
+}
+
+.right-half{
+float: right;
+margin-right: -290px;
+margin-top: -136px;
+}
+
+.know-text h5{
+margin-top: -100px;
+border-left: 6px solid #4070f4;
+padding-left: 30px;
+margin-left: 182px;
+font-family: 'Noto Sans', sans-serif;
+}
+
+.blog-text h5{
+margin-top: -100px;
+font-weight: 700;
+border-left: 6px solid #4070f4;
+height: 50px;
+padding-left: 30px;
+font-family: 'Noto Sans', sans-serif;
+}
+
+.start-text{
+margin-top: 30px;
+font-family: 'Noto Sans', sans-serif;
+}
+
+.start-text img{
+display: inline-block;
+margin-top: 7px;
+border: 2px solid #4070f4;
+padding: 15px;
+border-radius: 5px;
+}
+
+.start-text h3{
+display: inline-block;
+margin-left: 20px;
+padding-top: 20px;
+font-size: 20px;
+font-weight: 700;
+font-family: 'Noto Sans', sans-serif;
+}
+
+.start-text p{
+margin-left: 103px;
+margin-top: -25px;
+color: #4070f4;
+font-weight: 700;
+font-size: 18px;
+font-family: 'Noto Sans', sans-serif;
+}
+
+.start-text-1{
+margin-top: 30px;
+font-family: 'Noto Sans', sans-serif;
+}
+
+.start-text-1 img{
+display: inline-block;
+margin-top: 7px;
+border: 2px solid #4070f4;
+padding: 15px;
+border-radius: 5px;
+}
+
+.start-text-1 h3{
+display: inline-block;
+margin-left: 20px;
+padding-top: 20px;
+font-size: 20px;
+font-weight: 700;
+font-family: 'Noto Sans', sans-serif;
+}
+
+.start-text-1 p{
+margin-left: 103px;
+margin-top: -25px;
+color: #4070f4;
+font-weight: 700;
+font-size: 18px;
+font-family: 'Noto Sans', sans-serif;
+}
+
+
+.seo-text{
+margin-top: 30px;
+font-family: 'Noto Sans', sans-serif;
+}
+
+.seo-text:hover{
+transform: scale(1.05);
+box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+background: #4070f4;
+width:400px;
+border-radius: 8px;
+padding: 10px;
+}
+
+.start-text:hover{
+transform: scale(1.05);
+box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+background: #4070f4;
+width:400px;
+border-radius: 8px;
+padding: 10px;
+}
+
+.start-text-1:hover{
+transform: scale(1.05);
+box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+background: #4070f4;
+width:400px;
+border-radius: 8px;
+padding: 10px;
+}
+
+.start-text:hover img:first-child {
+background: #4070f4;
+}
+
+.start-text-1:hover img:first-child {
+background: #4070f4;
+}
+
+.seo-text img{
+display: inline-block;
+margin-top: 7px;
+border: 2px solid #4070f4;
+padding: 15px;
+border-radius: 5px;
+}
+
+.seo-text h3{
+display: inline-block;
+margin-left: 20px;
+padding-top: 20px;
+font-size: 20px;
+font-weight: 700;
+font-family: 'Noto Sans', sans-serif;
+}
+
+.seo-text p{
+margin-left: 103px;
+margin-top: -25px;
+color: #4070f4;
+font-weight: 700;
+font-size: 18px;
+font-family: 'Noto Sans', sans-serif;
+}
+
+.start-text:hover h3,
+.start-text:hover p{
+color: #fff;
+}
+
+.start-text-1:hover h3,
+.start-text-1:hover p{
+color: #fff;
+}
+
+.seo-text:hover h3,
+.seo-text:hover p{
+color: #fff;
+}
+
+.start-text:hover img{
+background: #4070f4;
+border-radius: 5px;
+-webkit-border-radius: 5px;
+outline: 2px solid white;
+fill: #fff;
+outline-offset: -1px;
+color: #fff;
+}
+
+.start-text:hover:before img{
+background-color: #fff;
+}
+
+.footer-area{
+float: right;
+margin-right: -34px;
+margin-top: 40px;
+}
+
+.footer-area h5{
+font-size: 22px;
+padding-top: 14px;
+font-family: 'Noto Sans', sans-serif;
+}
+
+.footer-area p{
+font-size: 19px;
+font-weight: 700;
+margin: 2px;
+color: #adb5bd;
+font-family: 'Noto Sans', sans-serif;
+}
+
+.news-letter input{
+/* width: 90%;
+height: 9vh;
+display: inline-block; */
+width: 304px;
+height: 62px;
+background: #dfdfdf;
+/* border: 1px solid #aaa; */
+border-radius: 5px;
+border: none;
+font-family: 'Noto Sans', sans-serif;
+}
+
+.news-letter img{
+display: inline-block;
+height: 10vh;
+}
+
+.news-letter input::placeholder {
+color: #aaa !important;
+font-weight: 400;
+padding-left: 30px;
+font-size: 19px;
+} 
+
+.customer-text{
+margin-top: 90px;
+border-left: 6px solid #4070f4;
+height: 50px;
+padding-left: 30px;
+font-family: 'Noto Sans', sans-serif;
+}
+
+.social-icons img{
+padding: 20px;
+margin-left: -18px;
+}
+
+.footer-review img{
+display: inline-block;
+margin-top: -124px;
+border: 2px solid #4070f4;
+padding: 15px;
+border-radius: 42px;
+}
+
+.footer-review p{
+display: inline-block;
+margin-left: 20px;
+padding-top: 20px;
+font-size: 20px;
+font-weight: 500;
+font-family: 'Noto Sans', sans-serif;
+}
+
+.footer-review h5{
+padding-left: 96px;
+font-family: 'Noto Sans', sans-serif;
+font-weight: 800;
+}
+
+/* .footer-review{
+width: 53px;
+height: 0;
+border: 1px solid #4070f4;
+margin: 3px;
+} */
+
+.text-underline{
+text-decoration: underline 6px solid #ffc107;
+font-family: 'Noto Sans', sans-serif;
+}
+
+.footer-review h5:before{
+border-bottom: 1px solid;
+margin: auto;
+font-family: 'Noto Sans', sans-serif;
+}
+
+.footer-bottom p{
+text-align: center;
+margin-top: 60px;
+font-weight: 500;
+font-size: 20px;
+color: #adb5bd;
+font-family: 'Noto Sans', sans-serif;
+font-weight: 800;
+}
+
+.ellipse-7{
+margin-left: 166px;
+padding-top: -33px;
+width: 9%;
+padding-top: 31px;
+}
+
+.ellipse-8{
+width: 2%;
+height: 4vh;
+margin-top: 50px;
+}
+
+.ellipse-11{
+float: right;
+margin-right: -88px;
+margin-top: 50px;
+width: 10%;
+}
+
+.ellipse-12{
+margin-left: -360px;
+top: 2px;
+padding-top: 58px;
+}
+
+.ellipse-19-1{
+float: right;
+}
+
+.ellipse-19{
+float: right;
+margin-top: -131px;
+margin-right: 70px;
+width: 4%;
+}
+
+.ellipse-21{
+float: right;
+width: 3%;
+height: 6vh;
+margin-left: 350px;
+margin-top: 28px;
+}
+
+.ellipse-16{
+border: none !important;
+margin-left: 350px;
+}
+
+.ellipse-15{
+float: right;
+border: none !important;
+padding-right: 350px;
+}
+
+.ellipse-21-new{
+padding-top: 50px;
+margin-left: 170px;
+}
+
+.ellipse-16-new{
+padding-left: 160px;
+padding-top: 30px;
+}
+
+.group-new{
+margin-left: -288px;
+margin-top: -375px;
+width: 30%;
+}
+
+
+.ellipse-28{
+border: none !important;
+margin-left: -95px;
+margin-top: -63px;
+}
+
+.ellipse-19-new{
+display: block;
+margin-left: 333px;
+width: 6%;
+margin-top: 18px;
+}
+
+.ellipse-19-top{
+display: block;
+margin-left: 500px;
+width: 2%;
+}
+
+.ellipse-19-top-side{
+width: 1%;
+margin-left: 45px;
+}
+
+.ellipse-21-top-side{
+display: block;
+margin-left: 401px;
+padding-top: 60px;
+}
+
+.ellipse-17-top-side{
+display: block;
+margin-left: 900px;
+width: 2%;
+}
+
+
+
+/* Responsive */
+@media screen and (max-width: 500px) {
+  .input-box {
+    height: 66px;
+    margin: 0 8px;
+    width: 100%;
+    margin-top: -71px;
+  }
+  .input-box i {
+    left: 12px;
+    font-size: 25px;
+  }
+  .input-box input {
+    padding: 0 112px 0 50px;
+  }
+  .input-box .button {
+    right: 12px;
+    font-size: 14px;
+    padding: 8px 18px;
+  }
+
+  .text img {
+    position: relative;
+    padding-top: 0px;
+    left: 0;
+    width: 95%;
+    height: auto;
+  }
+
+  .center-text {
+    position: absolute;
+    top: 75vh;
+    left: 3vw;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+
+  .center-text .quote-text{
+    font-size: 14px;
+    padding-top: 15px;
+  }
+
+  .center-text .service-quote{
+    font-size: 14px;
+  }
+
+  .right-half{
+    display: none;
+  }
+
+  .vedio-heading{
+    margin-top: 274px;
+  }
+
+  .button{
+    padding: 14px 10px;
+  }
+
+  .button-1{
+    padding: 13px 10px;
+  }
+
+  .vedio-heading img{
+    width: 12%;
+  }
+
+  .free-quote{
+    font-size: 25px;
+  }
+
+  .input-box input{
+    font-size: 12px;
+  }
+
+  .mission-quote{
+    font-size: 16px;
+  }
+
+  .started .dung{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 14%;
+  }
+
+  .card-title{
+    text-align: center;
+  }
+
+  .started .card-tex{
+    text-align: center;
+  }
+
+  .started a{
+    margin-left: 104px;
+  }
+
+  .started .vector{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 14%;
+  }
+
+  .register-text{
+    margin-left: 31px;
+    font-size: 14px;
+    margin-top: 22px;
+  }
+
+  .quote-new{
+    font-size: 18px;
+    padding-left: 66px;
+  }
+
+  .text-created{
+    font-size: 12px;
+  }
+
+  .advice-card{
+    height: 121vh;
+  }
+
+  .advice-card .card-title{
+    font-size: 15px;
+    margin-left: -19px;
+  }
+
+  .advice-card .text-learn{
+    font-size: 15px;
+    font-weight: 600;
+  }
+
+  .bank-card{
+    margin-top: 62px;
+    height: 117vh;
+  }
+
+  .bank-card .card-title{
+    font-size: 15px;
+    margin-left: -19px;
+  }
+
+  .bank-card .text-learn{
+    font-size: 15px;
+    font-weight: 600;
+  }
+
+  .company-card{
+    margin-top: 70px;
+    height: 120vh
+  }
+
+  .company-card .card-title{
+    font-size: 15px;
+    margin-left: -19px;
+  }
+
+  .registration-card{
+    margin-top: -176px;
+    height: 127vh;
+  }
+
+  .registration-card .card-title{
+    font-size: 15px;
+    margin-left: -19px;
+  }
+
+  .registration-card .text-learn{
+    font-size: 15px;
+    font-weight: 600;
+  }
+
+ .services-text{
+  font-size: 16px;
+  font-weight: 600;
+ }
+
+ .services-quote{
+  font-size: 16px;
+  font-weight: 600;
+ }
+
+ .heading-for-popular{
+  font-size: 17px;
+ }
+
+ .button-continue{
+  padding: 15px 78px;
+ }
+
+ .card-deck .card{
+    margin-bottom: 30px;
+ }
+
+ .blog-text h5{
+  font-size: 18px;
+ }
+
+ .start-text img{
+  padding: 7px;
+ }
+
+ .start-text h3{
+  font-size: 16px;
+ }
+
+ .start-text p{
+  margin-left: 87px;
+  font-size: 16px;
+ }
+
+ .start-text-1 img{
+  padding: 7px;
+ }
+
+ .start-text-1 h3{
+  margin-left: 80px;
+  margin-top: -92px;
+  font-size: 19px;
+ }
+
+ .start-text-1 p{
+  margin-left: 79px;
+  font-size: 16px;
+  margin-top: -5px;
+ }
+
+ .seo-text {
+  display: none;
+ }
+
+ .footer-review img{
+  display: inline-flex;
+  margin-top: 53px;
+ }
+
+ .footer-review p{
+  display: inline-flex;
+  font-size: 12px;
+  font-weight: 600;
+ }
+
+ .footer-review h5{
+  font-size: 16px;
+ }
+
+ .know-text h5{
+  display: none;
+ }
+  
+ .footer-area{
+  margin-right: -6px;
+ }
+
+ .footer-area p{
+  font-size: 14px;
+ }
+
+ .footer-bottom p{
+  font-size: 17px;
+ }
+
+ .news-letter input{
+  width: 183px;
+  height: 56px;
+  font-size: 11px;
+ }
+
+ .news-letter input::placeholder{
+  font-size: 14px;
+ }
+}
+
+
+
+
+/* @media only screen and  (max-width: 900px) {
+  .input-box {
+    height: 66px;
+    margin: 0 8px;
+    width: 100%;
+    margin-top: -71px;
+  }
+  .input-box i {
+    left: 12px;
+    font-size: 25px;
+  }
+  .input-box input {
+    padding: 0 112px 0 50px;
+  }
+  .input-box .button {
+    right: 12px;
+    font-size: 14px;
+    padding: 8px 18px;
+  }
+
+  .text img {
+    position: relative;
+    padding-top: 0px;
+    left: 0;
+    width: 95%;
+    height: auto;
+  }
+
+  .center-text {
+    position: absolute;
+    top: 43vh;
+    left: 3vw;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+
+  .center-text .quote-text{
+    font-size: 14px;
+    padding-top: 15px;
+  }
+
+  .center-text .service-quote{
+    font-size: 14px;
+  }
+
+  .right-half{
+    display: none;
+  }
+
+  .vedio-heading{
+    margin-top: 274px;
+  }
+
+  .button{
+    padding: 14px 10px;
+  }
+
+  .button-1{
+    padding: 13px 10px;
+  }
+
+  .vedio-heading img{
+    width: 6%;
+  }
+
+  .heading-for{
+    margin-top: 50px;
+  }
+
+  .free-quote{
+    font-size: 25px;
+  }
+
+  .input-box input{
+    font-size: 12px;
+  }
+
+  .mission-quote{
+    font-size: 16px;
+  }
+
+  .started .dung{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 14%;
+  }
+
+  .card-title{
+    text-align: center;
+    font-size: 13px;
+  }
+
+  .started .card-tex{
+    text-align: center;
+  }
+
+  .started a{
+    margin-left: 0px;
+    font-size: 13px;
+  }
+
+  .started .card-text{
+    font-size: 11px;
+  }
+
+  .started .vector{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 14%;
+  }
+
+  .register-text{
+    margin-left: 67px;
+    font-size: 13px;
+    margin-top: 106px;
+  }
+
+  .quote-new{
+    font-size: 15px;
+    padding-left: 67px;
+  }
+
+  .text-created{
+    font-size: 12px;
+    text-align: center;
+  }
+
+  .advice-card{
+    height: 94vh;
+    width: 84%;
+  }
+
+  .advice-card .card-title{
+    font-size: 18px;
+    margin-left: -19px;
+  }
+
+  .advice-card .text-learn{
+    font-size: 13px;
+    font-weight: 600;
+    margin-left: 61px;
+  }
+
+  .bank-card{
+    margin-top: -287px;
+    height: 94vh;
+    width: 84%;
+  }
+
+  .bank-card .card-title{
+    font-size: 15px;
+    margin-left: -19px;
+  }
+
+  .bank-card .text-learn{
+    font-size: 14px;
+    font-weight: 600;
+    margin-left: 48px;
+  }
+
+  .company-card{
+    margin-top: -260px;
+    height: 94vh;
+    width: 84%;
+  }
+
+  .company-card .card-title{
+    font-size: 15px;
+    margin-left: -19px;
+  }
+
+  .company-card .text-learn {
+    margin-left: 51px;
+    font-size: 14px;
+    font-weight: 600;
+  }
+
+  .registration-card{
+    margin-top: -245px;
+    height: 94vh;
+    width: 84%;
+  }
+
+  .registration-card .card-title{
+    font-size: 15px;
+    margin-left: -19px;
+  }
+
+  .registration-card .text-learn{
+    font-size: 13px;
+    font-weight: 600;
+    margin-left: 56px;
+  }
+
+ .services-text{
+  font-size: 12px;
+  font-weight: 600;
+  margin-left: 135px;
+ }
+
+ .ellipse-21{
+  width: 4%;
+ }
+
+ .ellipse-8{
+  width: 3%;
+ }
+
+ .services-quote{
+  font-size: 14px;
+  font-weight: 600;
+  margin-left: 131px;
+ }
+
+ .heading-for-popular{
+  font-size: 17px;
+  margin-top: 34px;
+ }
+
+ .button-continue{
+  padding: 15px 42px;
+  font-size: 16px;
+ }
+
+ .card-deck .card{
+    margin-bottom: 30px;
+ }
+
+ .blog-text h5{
+  height: 43px;
+  padding-left: 13px;
+  font-size: 15px;
+ }
+
+ .start-text img{
+  padding: 7px;
+ }
+
+ .start-text h3{
+  font-size: 16px;
+ }
+
+ .start-text p{
+  margin-left: 87px;
+  font-size: 16px;
+ }
+
+ .start-text-1 img{
+  padding: 7px;
+ }
+
+ .start-text-1 h3{
+  margin-left: 16px;
+  margin-top: -92px;
+  font-size: 19px;
+ }
+
+ .start-text-1 p{
+  margin-left: 83px;
+  font-size: 16px;
+  margin-top: -20px;
+ }
+
+ .seo-text {
+  display: none;
+ }
+
+ .footer-review img{
+  display: inline-flex;
+  margin-top: 53px;
+ }
+
+ .footer-review p{
+  display: inline-flex;
+  font-size: 12px;
+  font-weight: 600;
+ }
+
+ .footer-review h5{
+  font-size: 16px;
+ }
+
+
+ .know-text h5 {
+  padding-left: 8px;
+  margin-left: 123px;
+  font-size: 14px;
+}
+  
+ .footer-area{
+  margin-right: 146px;
+ }
+
+ .footer-area p{
+  font-size: 14px;
+ }
+
+ .footer-bottom p{
+  font-size: 17px;
+ }
+
+ .news-letter input{
+  width: 183px;
+  height: 56px;
+  font-size: 11px;
+ }
+
+ .news-letter input::placeholder{
+  font-size: 14px;
+ }
+
+ .customer-tex{
+  margin-top: 26px;
+ }
+
+ .dollar-1{
+  font-size: 18px;
+ }
+
+ .payment-text{
+  font-size: 11px;
+ }
+
+ .text-includes{
+  font-size: 15px;
+ }
+
+ .list-for li{
+  font-size: 12px;
+ }
+ .card-deck .card-title{
+  margin-top: 13px;
+  font-size: 16px;
+ }
+
+ .customer-text{
+  margin-top: 55px;
+  font-size: 17px;
+ }
+}  */
+
+/* @media screen and (max-width: 992px)  {
+
+  .input-box {
+    height: 66px;
+    margin: 0 8px;
+    width: 100%;
+    margin-top: -71px;
+  }
+  .input-box i {
+    left: 12px;
+    font-size: 25px;
+  }
+  .input-box input {
+    padding: 0 112px 0 50px;
+  }
+  .input-box .button {
+    right: 12px;
+    font-size: 14px;
+    padding: 8px 18px;
+  }
+
+  .text img {
+    position: relative;
+    padding-top: 0px;
+    left: 0;
+    width: 95%;
+    height: auto;
+  }
+
+  .center-text {
+    position: absolute;
+    top: 43vh;
+    left: 3vw;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+
+  .center-text .quote-text{
+    font-size: 14px;
+    padding-top: 15px;
+  }
+
+  .center-text .service-quote{
+    font-size: 14px;
+  }
+
+  .right-half{
+    display: none;
+  }
+
+  .vedio-heading{
+    margin-top: 274px;
+  }
+
+  .button{
+    padding: 14px 10px;
+  }
+
+  .button-1{
+    padding: 13px 10px;
+  }
+
+  .vedio-heading img{
+    width: 11%;
+  }
+
+  .heading-for{
+    margin-top: 50px;
+  }
+
+  .free-quote{
+    font-size: 25px;
+  }
+
+  .input-box input{
+    font-size: 12px;
+  }
+
+  .mission-quote{
+    font-size: 16px;
+  }
+
+  .started .dung{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 14%;
+  }
+
+  .card-title{
+    text-align: center;
+    font-size: 13px;
+  }
+
+  .started .card-tex{
+    text-align: center;
+  }
+
+  .started a{
+    margin-left: 108px;
+    font-size: 13px;
+  }
+
+  .started .card-text{
+    font-size: 11px;
+    text-align: center;
+  }
+
+  .started .vector{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 14%;
+  }
+
+  .register-text{
+  margin-left: 31px;
+  font-size: 13px;
+  margin-top: 40px;
+  }
+
+  .quote-new{
+    font-size: 15px;
+    padding-left: 67px;
+  }
+
+  .text-created{
+    font-size: 10px;
+    text-align: center;
+  }
+
+  .advice-card{
+  height: 85vh;
+  width: 80%;
+  margin-left: 20px;
+  }
+
+  .advice-card .card-title{
+    font-size: 18px;
+    margin-left: -19px;
+  }
+
+  .advice-card .text-learn{
+    font-size: 11px;
+    font-weight: 600;
+    margin-left: 32px;
+  }
+
+  .bank-card{
+    margin-top: 53px;
+    height: 84vh;
+    width: 80%;
+    margin-left: 18px;
+  }
+
+  .bank-card .card-title{
+    font-size: 15px;
+    margin-left: -19px;
+  }
+
+  .bank-card .text-learn{
+  font-size: 12px;
+  font-weight: 600;
+  margin-left: 35px;
+  }
+
+  .company-card{
+    margin-top: 38px;
+    height: 85vh;
+    width: 80%;
+    margin-left: 22px;
+  }
+
+  .company-card .card-title{
+    font-size: 15px;
+    margin-left: -19px;
+  }
+
+  .company-card .text-learn {
+    margin-left: 33px;
+    font-size: 12px;
+    font-weight: 600;
+  }
+
+  .registration-card{
+    margin-top: -206px;
+    height: 90vh;
+    width: 80%;
+    margin-left: 20px;
+  }
+
+  .registration-card .card-title{
+    font-size: 15px;
+    margin-left: -19px;
+  }
+
+  .registration-card .text-learn{
+  font-size: 12px;
+  font-weight: 600;
+  margin-left: 33px;
+  }
+
+ .services-text{
+  font-size: 13px;
+  font-weight: 600;
+  margin-left: 35px;
+ }
+
+ .ellipse-21{
+  width: 4%;
+ }
+
+ .ellipse-8{
+  width: 3%;
+ }
+
+ .services-quote{
+  font-size: 13px;
+  font-weight: 600;
+  margin-left: 41px;
+ }
+
+ .heading-for-popular{
+  font-size: 15px;
+  margin-top: 34px;
+ }
+
+ .button-continue{
+  padding: 15px 44px;
+  font-size: 13px;
+ }
+
+ .card-deck .card{
+    margin-bottom: 30px;
+ }
+
+ .blog-text h5{
+  height: 43px;
+  padding-left: 13px;
+  font-size: 15px;
+ }
+
+ .start-text img{
+  padding: 7px;
+ }
+
+ .start-text h3{
+  font-size: 16px;
+ }
+
+ .start-text p{
+  margin-left: 87px;
+  font-size: 16px;
+ }
+
+ .start-text-1 img{
+  padding: 7px;
+ }
+
+ .start-text-1 h3{
+  margin-left: 16px;
+  margin-top: -92px;
+  font-size: 19px;
+ }
+
+ .start-text-1 p{
+  margin-left: 83px;
+  font-size: 16px;
+  margin-top: -20px;
+ }
+
+ .seo-text {
+  display: none;
+ }
+
+ .footer-review img{
+  display: inline-flex;
+  margin-top: 53px;
+ }
+
+ .footer-review p{
+  display: inline-flex;
+  font-size: 12px;
+  font-weight: 600;
+ }
+
+ .footer-review h5{
+  font-size: 16px;
+ }
+
+
+ .know-text h5 {
+  padding-left: 8px;
+  margin-left: 123px;
+  font-size: 14px;
+}
+  
+ .footer-area{
+  margin-right: -93px;
+ }
+
+ .footer-area p{
+  font-size: 14px;
+ }
+
+ .footer-bottom p{
+  font-size: 17px;
+ }
+
+ .news-letter input{
+  width: 183px;
+  height: 56px;
+  font-size: 11px;
+ }
+
+ .news-letter input::placeholder{
+  font-size: 14px;
+ }
+
+ .customer-tex{
+  margin-top: 26px;
+ }
+
+ .dollar-1{
+  font-size: 18px;
+ }
+
+ .payment-text{
+  font-size: 11px;
+ }
+
+ .text-includes{
+  font-size: 15px;
+ }
+
+ .list-for li{
+  font-size: 12px;
+ }
+ .card-deck .card-title{
+  margin-top: 13px;
+  font-size: 16px;
+ }
+
+ .customer-text{
+  margin-top: 55px;
+  font-size: 17px;
+ }
+}  */
